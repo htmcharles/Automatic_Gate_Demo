@@ -46,13 +46,13 @@ This Arduino project implements an **automatic barrier gate system** using an ul
 
 ## ⚙️ How It Works
 
-1. **Object Detected:**  
+1. **Object Detected:**
    - If an object is detected within 10 cm:
      - Servo rotates to open gate.
      - Red LED turns off, blue LED turns on.
      - Buzzer beeps every 500 ms.
 
-2. **Object Leaves:**  
+2. **Object Leaves:**
    - After 5 seconds of no detection:
      - Servo closes gate.
      - Blue LED turns off, red LED turns on.
@@ -76,19 +76,12 @@ This Arduino project implements an **automatic barrier gate system** using an ul
 3. Power the Arduino board.
 4. Test the system by placing an object near the ultrasonic sensor.
 
----
-
-## 🙋 About the Author
-
-**Ganza Chael**  
-I am the creator of this project and kindly request merit based on my work and innovation.  
-Feel free to contact me at 📧 **ganzac784@gmail.com**
 
 ---
 
 ## 📄 License
 
-This project is open-source and intended for educational and personal use.  
+This project is open-source and intended for educational and personal use.
 Feel free to modify and expand upon it!
 
 ---
